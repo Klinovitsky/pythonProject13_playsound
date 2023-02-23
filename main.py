@@ -9,11 +9,9 @@ text = 'Солнце моё!'
 # init function to get an engine instance for the speech synthesis
 engine = pyttsx3.init()
 # say method on the engine that passing input text to be spoken
-engine.say('Привет Любимая,' + name + 'Добро пожаловать домой, как отдохнула? Следуй за белым кроликом!' + text)
+engine.say('Привет Любимая,' + name + 'Добро пожаловать домой, как отдохнула? Следуй за белым кроликом! Каляка маляка, вовка морковка жопка пирожок писечка сосисечка' + text)
 # run and wait method, it processes the voice commands.
 engine.runAndWait()
-
-
 
 #
 # # Import the required module for text
